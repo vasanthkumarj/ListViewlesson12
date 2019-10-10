@@ -13,6 +13,7 @@
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="@android:color/holo_blue_light"
         android:gravity="center"
+        android:background="@drawable/my_selector"
         />
 
 </LinearLayout>

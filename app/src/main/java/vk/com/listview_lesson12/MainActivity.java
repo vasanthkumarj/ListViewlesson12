@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(getBaseContext(), String.valueOf(adapterView.getItemAtPosition(i)), Toast.LENGTH_LONG).show();
+                view.setSelected(true);
             }
         });
 
