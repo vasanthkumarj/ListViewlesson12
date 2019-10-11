@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="100dp"
+    android:background="@android:drawable/screen_background_dark"
+    android:padding="10dp"
     >
 
-    <TextView
-        android:id="@+id/list_view"
+  <ImageView
+      android:id="@+id/movie_poster"
+      android:layout_width="100dp"
+      android:layout_height="75dp"
+      android:layout_alignParentLeft="true"
+      android:src="@drawable/bigil"
+      />
+
+  <TextView
+      android:id="@+id/movie_title"
+      android:layout_width="200dp"
+      android:layout_height="75dp"
+      android:layout_toRightOf="@+id/movie_poster"
+      android:text="Movie Title"
+      android:textColor="@android:color/background_light"
+      android:gravity="center"
+      />
+
+   <TextView
+       android:id="@+id/movie_rating"
+       android:layout_width="wrap_content"
+       android:layout_height="75dp"
+       android:layout_toRightOf="@+id/movie_title"
+       android:layout_alignParentRight="true"
+       android:text="Movie Rating"
+       android:textColor="@android:color/background_light"
+       android:gravity="center"
+       />
+
+    <view
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello world!!"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@android:color/holo_blue_light"
-        android:gravity="center"
-        android:background="@drawable/my_selector"
+        android:layout_height="2dp"
+        android:layout_below="@id/movie_poster"
+        android:background="@android:color/background_light"
         />
 
-</LinearLayout>
+</RelativeLayout>

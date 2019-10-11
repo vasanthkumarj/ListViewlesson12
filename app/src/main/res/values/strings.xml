@@ -1,6 +1,32 @@
 <resources>
-    <string name="app_name">ListView - lesson 12</string>
+    <string name="app_name">Top 10 Movies</string>
     <string-array name="version_list">
         <item>Kitkat</item>
+    </string-array>
+
+    <string-array name="movie_titles">
+        <item>Bigil</item>
+        <item>Comali</item>
+        <item>Ethir Neechal</item>
+        <item>Imaikka Nodigal</item>
+        <item>Kabali</item>
+        <item>Kavalai Vendam</item>
+        <item>Lucifer</item>
+        <item>Manithan</item>
+        <item>Monster</item>
+        <item>NGK</item>
+    </string-array>
+
+    <string-array name="movie_ratings">
+        <item>Rating: 8/10</item>
+        <item>Rating: 7/10</item>
+        <item>Rating: 8.5/10</item>
+        <item>Rating: 9/10</item>
+        <item>Rating: 7/10</item>
+        <item>Rating: 7.5/10</item>
+        <item>Rating: 9.5/10</item>
+        <item>Rating: 9/10</item>
+        <item>Rating: 7/10</item>
+        <item>Rating: 8/10</item>
     </string-array>
 </resources>

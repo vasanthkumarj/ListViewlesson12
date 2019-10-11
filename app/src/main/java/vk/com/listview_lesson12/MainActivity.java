@@ -20,18 +20,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listView = findViewById(R.id.version_list);
-        //arrayAdapter = ArrayAdapter.createFromResource(this, R.array.version_list, android.R.layout.simple_list_item_1);
-        adapter = new ArrayAdapter<>(this, R.layout.list_view_custom_layout, R.id.list_view, version_list);
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getBaseContext(), String.valueOf(adapterView.getItemAtPosition(i)), Toast.LENGTH_LONG).show();
-                view.setSelected(true);
-            }
-        });
+//        listView = findViewById(R.id.movie_list);
+//        //arrayAdapter = ArrayAdapter.createFromResource(this, R.array.version_list, android.R.layout.simple_list_item_1);
+//        //adapter = new ArrayAdapter<>(this, R.layout.list_view_custom_layout, R.id.list_view, version_list);
+//        listView.setAdapter(adapter);
+//
+//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Toast.makeText(getBaseContext(), String.valueOf(adapterView.getItemAtPosition(i)), Toast.LENGTH_LONG).show();
+//                view.setSelected(true);
+//            }
+//        });
 
 
     }
