@@ -12,7 +12,7 @@
       android:layout_width="100dp"
       android:layout_height="75dp"
       android:layout_alignParentLeft="true"
-      android:src="@drawable/bigil"
+      android:src="@mipmap/bigil"
       />
 
   <TextView
@@ -36,7 +36,7 @@
        android:gravity="center"
        />
 
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_below="@id/movie_poster"
